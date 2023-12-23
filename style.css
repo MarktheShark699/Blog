@@ -46,6 +46,10 @@ h1.header-h1, h3.header-h4 {
     font-size: 18px;
 }
 
+.augustine-line{
+    font-family: 'Brush Script MT', cursive;
+}
+
 .books-section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
