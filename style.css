@@ -43,6 +43,7 @@ h1.header-h1, h3.header-h4 {
 
 .content {
     padding: 20px; /* Adjust the padding as needed */
+    font-size: 18px;
 }
 
 .books-section {
