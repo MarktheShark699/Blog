@@ -41,6 +41,10 @@ h1.header-h1, h3.header-h4 {
             margin-bottom: 0.5em; /* Adjust the value as needed */
         }
 
+.content {
+    padding: 20px; /* Adjust the padding as needed */
+}
+
 .books-section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
