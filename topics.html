@@ -35,13 +35,6 @@
                     <li><a href="/Blogs/Obedience.html">Obedience</a></li>
                     <li><a href="/Blogs/Confession.html">Confession</a></li>
                 </ul>
-
-                <div class="dropdown">
-            <button onclick="toggleDropdown()" class="dropbtn">Topics</button>
-            <div id="dropdownContent" class="dropdown-content">
-                <p>This is a paragraph that appears when the dropdown is clicked.</p>
-            </div>
-        </div>
                 
                 <ul class="right-list">
                     <li><a href="/Blogs/Life.html">Life</a></li>
@@ -60,25 +53,6 @@
         </audio>
     </section>
 
-    <script>
-        function toggleDropdown() {
-            document.getElementById("dropdownContent").classList.toggle("show");
-        }
-
-        // Close the dropdown if the user clicks outside of it
-        window.onclick = function(event) {
-            if (!event.target.matches('.dropbtn')) {
-                var dropdowns = document.getElementsByClassName("dropdown-content");
-                var i;
-                for (i = 0; i < dropdowns.length; i++) {
-                    var openDropdown = dropdowns[i];
-                    if (openDropdown.classList.contains('show')) {
-                        openDropdown.classList.remove('show');
-                    }
-                }
-            }
-        }
-    </script>
 
 </body>
 </html>
