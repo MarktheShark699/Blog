@@ -254,6 +254,30 @@ h1.header-h1, h3.header-h4 {
     background-color: #777;
 }
 
+.centered-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; /* Adjust margin as needed */
+}
+
+.left-links, .right-links {
+    display: flex;
+}
+
+.left-links a, .right-links a {
+    margin: 0 10px; /* Adjust margin as needed */
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: #555;
+    transition: background-color 0.3s ease;
+}
+
+.left-links a:hover, .right-links a:hover {
+    background-color: #777;
+}
 
 
 
