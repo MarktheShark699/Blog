@@ -254,13 +254,17 @@ h1.header-h1, h3.header-h4 {
     background-color: #777;
 }
 
+nav .left-links,
+nav .right-links {
+    width: 50%;
+}
 
 .left-links {
-    flex-grow: 1; /* Takes remaining space */
+    text-align: right;
 }
 
 .right-links {
-    flex-shrink: 0; /* Doesn't shrink */
+    text-align: left;
 }
 
 
