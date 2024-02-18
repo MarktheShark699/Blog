@@ -254,18 +254,7 @@ h1.header-h1, h3.header-h4 {
     background-color: #777;
 }
 
-nav .left-links,
-nav .right-links {
-    width: 50%;
-}
 
-.left-links {
-    text-align: right;
-}
-
-.right-links {
-    text-align: left;
-}
 
 
 /* Add media query for small screens */
