@@ -41,6 +41,7 @@ h1.header-h1, h3.header-h4 {
             margin-bottom: 0.5em; /* Adjust the value as needed */
         }
 
+/* ---------------------------------------------------------------------------*/
 
 .content {
     padding: 20px; /* Adjust the padding as needed */
@@ -70,6 +71,8 @@ h1.header-h1, h3.header-h4 {
     text-align: center;
     color: white; /* Text color for the center */
 }
+
+/* ---------------------------------------------------------------------------*/
 
 
 .augustine-line{
@@ -101,6 +104,8 @@ h1.header-h1, h3.header-h4 {
     filter: grayscale(45%); /* Grayscale effect on hover */
 }
 
+/* ---------------------------------------------------------------------------*/
+
 .movies-section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -126,6 +131,10 @@ h1.header-h1, h3.header-h4 {
     filter: grayscale(45%); /* Grayscale effect on hover */
 }
 
+
+/* ---------------------------------------------------------------------------*/
+
+
 .about-section {
     text-align: center; /* Center-align the text within the .about-section */
     padding: 20px;
@@ -133,6 +142,7 @@ h1.header-h1, h3.header-h4 {
     height: 73.5vh; /* Adjust the height as needed */
 }
 
+/* ---------------------------------------------------------------------------*/
 
 .buttons-container .small-image {
     max-width: 50%; /* Set the maximum width to be 10% of its container */
@@ -225,6 +235,10 @@ h1.header-h1, h3.header-h4 {
 .hyperlink-button:hover {
     background-color: #777;
 }
+
+
+/* ---------------------------------------------------------------------------*/
+
 
 .separator {
     margin: 0 10px; /* Adjust spacing between the regular text and the hyperlink button */
