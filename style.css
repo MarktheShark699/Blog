@@ -246,10 +246,13 @@ h1.header-h1, h3.header-h4 {
 }
 
 .main-content {
-     text-align: center;
-     padding: 40px;
-     background-color: #fff;
-     margin: 20px;
+    text-align: center;
+    padding: 40px;
+    background-image: url('images/Coronation.jpg'); /* Specify the path to your image */
+    background-size: cover; /* Cover the entire div */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating the background image */
+    margin: 20px;
     border-radius: 5px;
 }
 
