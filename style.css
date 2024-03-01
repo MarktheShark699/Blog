@@ -40,6 +40,7 @@ nav a:hover {
 h1.header-h1, h3.header-h4 {
             margin-bottom: 0.5em; /* Adjust the value as needed */
         }
+/*
 .main-content {
     background-image: url('/images/Coronation.jpg');
     display: flex;
@@ -47,13 +48,14 @@ h1.header-h1, h3.header-h4 {
     align-items: center;
     height: 80vh;
     background-color: #ccc;
-    background-size: cover; /* Cover the entire .main-content div */
-    background-position: center; /* Center the background image */
-    position: relative; /* Set position to relative */
+    background-size: cover; 
+    background-position: center; 
+    position: relative; 
     text-align: center;
     padding: 0.2em;
-    opacity: 0.5; /* Set the opacity value to your preference */
-}
+    opacity: 0.5; 
+} 
+*/
 
 
 .content {
