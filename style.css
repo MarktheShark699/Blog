@@ -249,12 +249,12 @@ h1.header-h1, h3.header-h4 {
     text-align: center;
     padding: 40px;
     background-image: url('/images/Coronation.jpg'); /* Specify the path to your image */
-    background-size: 60%; /* Scale out the background image */
+    background-size: 40%; /* Scale out the background image */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent repeating the background image */
     margin: 20px;
     border-radius: 5px;
-    opacity: 0.5;
+
     color: black;
 }
 
