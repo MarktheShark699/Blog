@@ -47,7 +47,7 @@ h1.header-h1, h3.header-h4 {
     font-size: 18px;
 }
 
-.main-content {
+/* .main-content {
     text-align: center;
     padding: 40px;
     background-image: url('/images/Coronation.jpg'); 
@@ -58,6 +58,33 @@ h1.header-h1, h3.header-h4 {
     border-radius: 5px;
     color: black;
     background-color: rgba(255, 255, 255, 0.5);
+}
+*/
+
+.main-content {
+    position: relative;
+    text-align: center;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 5px;
+    color: black;
+    overflow: hidden; /* Ensure the pseudo-element doesn't extend beyond the container */
+}
+
+.main-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/Coronation.jpg');
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5; /* Adjust the opacity as needed */
+    z-index: -1; /* Ensure the pseudo-element is behind the content */
+    border-radius: inherit; /* Inherit the border-radius from the main content */
 }
 
 
