@@ -52,7 +52,7 @@ h1.header-h1, h3.header-h4 {
     text-align: center;
     padding: 40px;
     background-image: url('/images/Coronation.jpg'); 
-    background-size: 65%; 
+    background-size: 70%; 
     background-position: center; 
     background-repeat: no-repeat; 
     margin: 20px;
@@ -71,6 +71,21 @@ h1.header-h1, h3.header-h4 {
     text-align: center;
     color: white; /* Text color for the center */
 }
+
+.hyperlink-button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #555;
+    padding: 10px 20px;   
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.hyperlink-button:hover {
+    background-color: #777;
+}
+
 
 /* ---------------------------------------------------------------------------*/
 
@@ -102,6 +117,25 @@ h1.header-h1, h3.header-h4 {
 
 .book:hover img {
     filter: grayscale(45%); /* Grayscale effect on hover */
+}
+
+.separator {
+    margin: 0 10px; /* Adjust spacing between the regular text and the hyperlink button */
+    color: #555; /* Color of the separator */
+}
+
+.section-title {
+    margin-bottom: 20px;
+}
+
+.centered-header {
+    text-align: center;
+
+}
+
+.regular-text {
+    font-size: 16px; /* Set the font size for regular text */
+    color: #333; /* Set the color for regular text */
 }
 
 /* ---------------------------------------------------------------------------*/
@@ -217,57 +251,10 @@ h1.header-h1, h3.header-h4 {
     padding: 1em 0;
 }
 
-.regular-text {
-    font-size: 16px; /* Set the font size for regular text */
-    color: #333; /* Set the color for regular text */
-}
-
-.hyperlink-button {
-    text-decoration: none;
-    color: #fff;
-    background-color: #555;
-    padding: 8px 16px; /* Smaller padding for smaller buttons */
-    border-radius: 5px;
-    font-size: 16px; /* Smaller font size */
-    transition: background-color 0.3s ease;
-}
-
-.hyperlink-button:hover {
-    background-color: #777;
-}
 
 
 /* ---------------------------------------------------------------------------*/
 
-
-.separator {
-    margin: 0 10px; /* Adjust spacing between the regular text and the hyperlink button */
-    color: #555; /* Color of the separator */
-}
-
-.section-title {
-    margin-bottom: 20px;
-}
-
-.centered-header {
-    text-align: center;
-
-}
-
-
-.hyperlink-button {
-    text-decoration: none;
-    color: #fff;
-    background-color: #555;
-    padding: 10px 20px;   
-    border-radius: 5px;
-    font-size: 18px;
-    transition: background-color 0.3s ease;
-}
-
-.hyperlink-button:hover {
-    background-color: #777;
-}
 
 
 
