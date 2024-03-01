@@ -40,28 +40,26 @@ nav a:hover {
 h1.header-h1, h3.header-h4 {
             margin-bottom: 0.5em; /* Adjust the value as needed */
         }
-/*
-.main-content {
-    background-image: url('/images/Coronation.jpg');
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-    background-color: #ccc;
-    background-size: cover; 
-    background-position: center; 
-    position: relative; 
-    text-align: center;
-    padding: 0.2em;
-    opacity: 0.5; 
-} 
-*/
 
 
 .content {
     padding: 20px; /* Adjust the padding as needed */
     font-size: 18px;
 }
+
+.main-content {
+    text-align: center;
+    padding: 40px;
+    background-image: url('/images/Coronation.jpg'); /* Specify the path to your image */
+    background-size: 40%; /* Scale out the background image */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating the background image */
+    margin: 20px;
+    border-radius: 5px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
 
 .augustine-line{
     font-family: 'Brush Script MT', cursive;
@@ -243,19 +241,6 @@ h1.header-h1, h3.header-h4 {
 .centered-header {
     text-align: center;
 
-}
-
-.main-content {
-    text-align: center;
-    padding: 40px;
-    background-image: url('/images/Coronation.jpg'); /* Specify the path to your image */
-    background-size: 40%; /* Scale out the background image */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Prevent repeating the background image */
-    margin: 20px;
-    border-radius: 5px;
-
-    color: black;
 }
 
  .center-text {
