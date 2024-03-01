@@ -254,9 +254,6 @@ h1.header-h1, h3.header-h4 {
 
 }
 
- .center-text {
-    color: #333;
-}
 
 .hyperlink-button {
     text-decoration: none;
@@ -271,8 +268,6 @@ h1.header-h1, h3.header-h4 {
 .hyperlink-button:hover {
     background-color: #777;
 }
-
-
 
 
 
