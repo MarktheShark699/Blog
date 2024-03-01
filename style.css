@@ -41,7 +41,7 @@ h1.header-h1, h3.header-h4 {
             margin-bottom: 0.5em; /* Adjust the value as needed */
         }
 .main-content {
-    background-image: url('/images/Coronation.jpg'); 
+    background-image: url('/images/Coronation.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
